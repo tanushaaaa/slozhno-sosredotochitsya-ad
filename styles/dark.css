@@ -32,3 +32,29 @@
 .theme-dark .header__rec {
   display: flex;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000028;
+    --text-color: #f1b2ce;
+    --accent-color: #ff0070;
+    --title-color: #db00ff;
+    --title-shadow: var(--accent-color);
+    --section-title-color: var(--accent-color);
+    --decorated-zone-color: var(--accent-color);
+    --link-shadow: var(--accent-color);
+    --rec-color: var(--accent-color);
+    --hover-color: rgba(255, 0, 112, 0.4);
+    --bg-image: url(../images/cover-image-dark.png);
+  }
+
+  .page {
+    background-color: var(--bg-color);
+    background-image: var(--bg-image);
+    color: var(--text-color);
+  }
+
+  .header__rec {
+    display: flex;
+  }
+}

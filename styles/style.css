@@ -12,6 +12,8 @@
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);
   font-weight: var(--font-weight-normal);
+  min-inline-size: 375px;
+  inline-size: 100%;
 }
 
 /* Декоративные углы */
