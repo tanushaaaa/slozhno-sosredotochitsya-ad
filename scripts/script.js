@@ -27,9 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function setTheme(theme) {
   document.documentElement.className = '';
-  if (theme !== 'auto') {
-    document.documentElement.classList.add(`theme-${theme}`);
-  }
+  document.documentElement.classList.add(`theme-${theme}`);
   localStorage.setItem('theme', theme);
 }
 
