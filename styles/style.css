@@ -219,7 +219,7 @@ a:focus-visible {
 
 .gallery__image {
   inline-size: 100%;
-  block-size: 100%;
+  block-size: auto;
   object-fit: cover;
   object-position: center;
 }
